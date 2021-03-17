@@ -22,6 +22,7 @@ public class Step_defenition extends Base_Class {
 	public void user_Launch_The_Application() throws Throwable {
 		String url = FileReaderManager.getInstance().getInstanceCR().getUrl();
 		getUrl(url);
+		System.out.println("loaded");
 
 	}
 	
